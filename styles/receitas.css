@@ -16,17 +16,19 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 1rem;
     gap: 2rem;
+}
+
+.recipes-container h2 {
+    font-weight: bold;
 }
 
 .recipes-container div * {
     font-size: 1.6rem;
 }
 
-.recipes-container div ul {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 2rem;
+.recipes-container div {
+    padding: 1rem;
 }
 
 .recipes-container div ul li {

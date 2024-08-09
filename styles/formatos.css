@@ -15,6 +15,9 @@ header {
     padding: 1rem 2rem;
     background-color: #343A40;
     color: #697072;
+    height: 6rem;
+    display: flex;
+    align-items: center;
 }
 
 header div {
@@ -33,7 +36,7 @@ header button {
 }
 
 main {
-    height: 100vh;
+    min-height: calc(100vh - 100px);
     width: 100vw;
     flex: 1;
     display: flex;
@@ -82,6 +85,7 @@ footer {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    height: 2.5rem;
 }
 
 footer p {
