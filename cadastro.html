@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Receitas da Tia Jurema</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./styles/formatos.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <button>menu</button>
+                <div>
+                    <a href="./home.html">Home</a>
+                    <a href="./receitas.html">Receitas</a>
+                    <a href="./cadastro.html" class="active">Cadastro</a>
+                </div>
+            </nav>
+        </header>
+        <main class="cadastro-container container">
+            <form action="">
+                <div class="col-lg-10">
+                    <h1>Efetue seu cadastro</h1>
+                    <div class="row mb-2">
+                        <label class="col-2 col-form-label" for="cadastro-name"
+                            >Nome</label
+                        >
+                        <div class="col-10">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="cadastro-name"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-2 col-form-label" for="cadastro-email"
+                            >Email</label
+                        >
+                        <div class="col-10">
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="cadastro-email"
+                            />
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-2 col-form-label" for="cadastro-cep"
+                            >CEP</label
+                        >
+                        <div class="col-10">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="cep"
+                                id="cadastro-cep"
+                            />
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label
+                            class="col-2 col-form-label"
+                            for="cadastro-street"
+                            >Rua</label
+                        >
+                        <div class="col-10">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="street"
+                                id="cadastro-street"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2">
+                        <label
+                            class="col-sm-2 col-form-label"
+                            for="cadastro-number"
+                            >Número</label
+                        >
+                        <div class="col-sm-2">
+                            <input
+                                type="number"
+                                class="form-control"
+                                name="number"
+                                id="cadastro-number"
+                            />
+                        </div>
+                        <label
+                            class="col-sm-2 col-form-label"
+                            for="cadastro-complement"
+                            >Complemento</label
+                        >
+                        <div class="col-sm-6">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="complement"
+                                id="cadastro-complement"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2">
+                        <label
+                            class="col-sm-2 col-form-label"
+                            for="cadastro-city"
+                            >Cidade</label
+                        >
+                        <div class="col-sm-6">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="city"
+                                id="cadastro-city"
+                            />
+                        </div>
+                        <label class="col-sm-2 col-form-label" for="cadastro-uf">UF</label>
+                        <div class="col-sm-2">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="uf"
+                                id="cadastro-uf"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                <button class="btn btn-primary" type="submit">cadastrar</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;Jurema 2024</p>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

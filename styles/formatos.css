@@ -1,0 +1,101 @@
+@import url('./reset.css');
+@import url('./receitas.css');
+@import url('./cadastro.css');
+
+body {
+    background-color: #E9967A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000001;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 1rem 2rem;
+    background-color: #343A40;
+    color: #697072;
+}
+
+header div {
+    display: flex;
+    gap: 1rem;
+}
+
+header a {
+    font-size: 1.6rem;
+}
+
+header button {
+    display: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container {
+    text-align: center;
+}
+
+main .home-container h1 {
+    font-size: 4.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+main .home-container h1 span {
+    border: 5px solid black;
+    display: flex;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+main .home-container h1 span img {
+    width: 4rem;
+    height: auto;
+}
+
+main .home-container h2, main .home-container h3 {
+    font-size: 2.4rem;
+}
+
+.logotipo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.active, .active:hover {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    header button {
+        display: block;
+    }
+}
